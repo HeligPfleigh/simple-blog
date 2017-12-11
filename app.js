@@ -29,7 +29,6 @@ var app = express();
 //   res.locals.messages = require('express-messages')(req, res);
 //   cb();
 // });
-// ---->> FLASH  MESSAGE <<<-----
 
 // ---->>> EXPRESS_SESSION <<<-----
 var session = require('express-session');
@@ -38,7 +37,6 @@ app.use(session({
   saveUninitialized: true,
   resave: true
 }))
-// ---->>> EXPRESS_SESSION <<<-----
 
 // ---->>> EXPRESS VALIDATION <<<-----
 app.use(expressValidator({
@@ -57,7 +55,6 @@ app.use(expressValidator({
     };
   }
 }));
-// ---->>> EXPRESS VALIDATION <<<-----
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

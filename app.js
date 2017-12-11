@@ -22,6 +22,8 @@ var users = require('./routes/users');
 
 var app = express();
 
+app.locals.moment = require('moment');
+
 // ---->> FLASH  MESSAGE <<<-----
 // var flash = require('connect-flash');
 // app.use(flash);

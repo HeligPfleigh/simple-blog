@@ -67,7 +67,7 @@ nav a.current, nav a:hover{
     color:#000;
 }
 
-/* .meta{
+.meta{
     padding:7px;
     border:1px solid #ccc;
     background:#ccc;
@@ -163,4 +163,4 @@ footer{
 
 .comment-name{
     font-weight: bold;
-} */
+}
